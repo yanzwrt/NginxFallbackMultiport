@@ -1,5 +1,5 @@
 #!/bin/bash
-#Multiport Fallbacks By Vinstechmy
+#Multiport Fallbacks By yanzwrt
 red='\e[1;31m'
 green='\e[0;32m'
 purple='\e[0;35m'
@@ -7,7 +7,7 @@ orange='\e[0;33m'
 NC='\e[0m'
 
 # Github Profile Repo
-Git_Profile="https://raw.githubusercontent.com/vinstechmy/NginxFallbackMultiport/main"
+Git_Profile="https://raw.githubusercontent.com/yanzwrt/NginxFallbackMultiport/main"
 
 echo -e "[ ${green}INFO${NC} ] Update Starting Now . . ."
 echo ""
@@ -21,7 +21,7 @@ wget -O backupmenu "${Git_Profile}/MENU/backupmenu.sh" && chmod +x /usr/bin/back
 cd
 cd /etc/nginx/conf.d
 rm xray.conf
-wget -O xray.conf "https://raw.githubusercontent.com/vinstechmy/NginxFallbackMultiport/main/OTHERS/xray.conf" && chmod +x xray.conf
+wget -O xray.conf "https://raw.githubusercontent.com/yanzwrt/NginxFallbackMultiport/main/OTHERS/xray.conf" && chmod +x xray.conf
 cd
 sleep 1
 clear
